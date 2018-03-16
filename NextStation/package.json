@@ -1,1 +1,21 @@
-{"name":"cs.flas.ku.ac.th","version":"1.0.0","displayName":"NextStation","cordova":{"platforms":["android"]},"dependencies":{"cordova-android":"~7.0.0"}}
+{
+  "name": "cs.flas.ku.ac.th",
+  "version": "1.0.0",
+  "displayName": "NextStation",
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {
+      "cordova-plugin-googlemaps": {
+        "API_KEY_FOR_ANDROID": "AIzaSyB-GYwIrTxafCGVvmxfmmyaGVcGuAulgg",
+        "PLAY_SERVICES_VERSION": "11.8.0",
+        "ANDROID_SUPPORT_V4_VERSION": "24.1.0"
+      }
+    }
+  },
+  "dependencies": {
+    "cordova-android": "~7.0.0",
+    "cordova-plugin-googlemaps": "^2.2.8"
+  }
+}

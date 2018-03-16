@@ -36,6 +36,12 @@
     },
     "cordova-plugin-vibration": {
       "PACKAGE_NAME": "cs.flas.ku.ac.th"
+    },
+    "cordova-plugin-googlemaps": {
+      "API_KEY_FOR_ANDROID": "AIzaSyB-GYwIrTxafCGVvmxfmmyaGVcGuAulgg",
+      "PLAY_SERVICES_VERSION": "11.8.0",
+      "ANDROID_SUPPORT_V4_VERSION": "24.1.0",
+      "PACKAGE_NAME": "cs.flas.ku.ac.th"
     }
   },
   "dependent_plugins": {

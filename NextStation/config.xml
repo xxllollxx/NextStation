@@ -106,4 +106,9 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <engine name="android" spec="~7.0.0" />
+    <plugin name="cordova-plugin-googlemaps" spec="^2.2.8">
+        <variable name="API_KEY_FOR_ANDROID" value="AIzaSyB-GYwIrTxafCGVvmxfmmyaGVcGuAulgg" />
+        <variable name="PLAY_SERVICES_VERSION" value="11.8.0" />
+        <variable name="ANDROID_SUPPORT_V4_VERSION" value="24.1.0" />
+    </plugin>
 </widget>
