@@ -1,0 +1,46 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-battery-status": {
+      "PACKAGE_NAME": "cs.flas.ku.ac.th"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "cs.flas.ku.ac.th"
+    },
+    "cordova-plugin-media-capture": {
+      "PACKAGE_NAME": "cs.flas.ku.ac.th"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "cs.flas.ku.ac.th"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "cs.flas.ku.ac.th"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "cs.flas.ku.ac.th"
+    },
+    "cordova-plugin-globalization": {
+      "PACKAGE_NAME": "cs.flas.ku.ac.th"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "cs.flas.ku.ac.th"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "cs.flas.ku.ac.th"
+    },
+    "cordova-plugin-vibration": {
+      "PACKAGE_NAME": "cs.flas.ku.ac.th"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "cs.flas.ku.ac.th"
+    }
+  }
+}
