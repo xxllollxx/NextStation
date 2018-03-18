@@ -11,12 +11,18 @@
   <link rel="stylesheet" type="text/css" href="uilib/onsen/css/onsenui.css" />
   <link rel="stylesheet" type="text/css" href="uilib/onsen/css/onsen-css-components.min.css" />
   <link rel="stylesheet" type="text/css" href="fontawesome-free-5.0.8/web-fonts-with-css/css/fontawesome-all.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/index.css" />
 
   <script type="text/javascript" src="cordova.js"></script>
   <script type="text/javascript" src="uilib/onsen/js/onsenui.min.js"></script>
   <script type="text/javascript" src="uilib/onsen/js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+  <script type="text/javascript">app.initialize();</script>
+  <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCXl1B0Xc1Gu9WT5FW6Hs5bAsM2yKz3DhM&callback" async defer></script>
   <title>Hello World</title>
+ 
 </head>
+
 
 <body>
   <ons-page>
@@ -24,6 +30,7 @@
 
     <ons-page>
       <ons-toolbar>
+        
         <div class="center">Next Station</div>
       </ons-toolbar>
 
@@ -40,6 +47,10 @@
 
     <template id="tab1.html">
       <ons-page id="Tab1">
+
+          <div id="map" style="width: 500px; height: 400px;"></div>
+
+
         <p style="text-align: center;">
           This is the first page.
         </p>

@@ -8,14 +8,16 @@
     ],
     "plugins": {
       "cordova-plugin-googlemaps": {
-        "API_KEY_FOR_ANDROID": "AIzaSyB-GYwIrTxafCGVvmxfmmyaGVcGuAulgg",
+        "API_KEY_FOR_ANDROID": "AIzaSyCXl1B0Xc1Gu9WT5FW6Hs5bAsM2yKz3DhM",
         "PLAY_SERVICES_VERSION": "11.8.0",
         "ANDROID_SUPPORT_V4_VERSION": "24.1.0"
-      }
+      },
+      "cordova-plugin-geolocation": {}
     }
   },
   "dependencies": {
     "cordova-android": "~7.0.0",
+    "cordova-lib": "^8.0.0",
     "cordova-plugin-googlemaps": "^2.2.8"
   }
 }

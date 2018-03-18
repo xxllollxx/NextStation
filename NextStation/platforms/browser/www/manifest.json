@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "NextStation",
+  "short_name": "NextStation",
+  "version": "cs.flas.ku.ac.th",
+  "description": "Hello World sample application that responds to the deviceready event.",
+  "author": "PhoneGap Team",
+  "icons": [],
+  "start_url": "index.html"
+}
