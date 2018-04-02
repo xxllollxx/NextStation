@@ -13,9 +13,6 @@
     "cordova-plugin-camera": {
       "PACKAGE_NAME": "cs.flas.ku.ac.th"
     },
-    "cordova-plugin-media-capture": {
-      "PACKAGE_NAME": "cs.flas.ku.ac.th"
-    },
     "cordova-plugin-device": {
       "PACKAGE_NAME": "cs.flas.ku.ac.th"
     },
@@ -28,19 +25,22 @@
     "cordova-plugin-globalization": {
       "PACKAGE_NAME": "cs.flas.ku.ac.th"
     },
+    "cordova-plugin-googlemaps": {
+      "API_KEY_FOR_ANDROID": "AIzaSyB-GYwIrTxafCGVvmxfmmyaGVcGuAulgg",
+      "PLAY_SERVICES_VERSION": "11.8.0",
+      "ANDROID_SUPPORT_V4_VERSION": "24.1.0",
+      "PACKAGE_NAME": "cs.flas.ku.ac.th"
+    },
     "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "cs.flas.ku.ac.th"
+    },
+    "cordova-plugin-media-capture": {
       "PACKAGE_NAME": "cs.flas.ku.ac.th"
     },
     "cordova-plugin-network-information": {
       "PACKAGE_NAME": "cs.flas.ku.ac.th"
     },
     "cordova-plugin-vibration": {
-      "PACKAGE_NAME": "cs.flas.ku.ac.th"
-    },
-    "cordova-plugin-googlemaps": {
-      "API_KEY_FOR_ANDROID": "AIzaSyB-GYwIrTxafCGVvmxfmmyaGVcGuAulgg",
-      "PLAY_SERVICES_VERSION": "11.8.0",
-      "ANDROID_SUPPORT_V4_VERSION": "24.1.0",
       "PACKAGE_NAME": "cs.flas.ku.ac.th"
     }
   },

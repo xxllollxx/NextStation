@@ -6,34 +6,22 @@
     <feature name="Camera">
         <param name="android-package" value="org.apache.cordova.camera.CameraLauncher" />
     </feature>
-    <feature name="File">
-        <param name="android-package" value="org.apache.cordova.file.FileUtils" />
-        <param name="onload" value="true" />
-    </feature>
-    <allow-navigation href="cdvfile:*" />
-    <feature name="Capture">
-        <param name="android-package" value="org.apache.cordova.mediacapture.Capture" />
-    </feature>
     <feature name="Device">
         <param name="android-package" value="org.apache.cordova.device.Device" />
     </feature>
     <feature name="Notification">
         <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
     </feature>
+    <feature name="File">
+        <param name="android-package" value="org.apache.cordova.file.FileUtils" />
+        <param name="onload" value="true" />
+    </feature>
+    <allow-navigation href="cdvfile:*" />
     <feature name="Geolocation">
         <param name="android-package" value="org.apache.cordova.geolocation.Geolocation" />
     </feature>
     <feature name="Globalization">
         <param name="android-package" value="org.apache.cordova.globalization.Globalization" />
-    </feature>
-    <feature name="InAppBrowser">
-        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
-    </feature>
-    <feature name="NetworkStatus">
-        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
-    </feature>
-    <feature name="Vibration">
-        <param name="android-package" value="org.apache.cordova.vibration.Vibration" />
     </feature>
     <feature name="CordovaGoogleMaps">
         <param name="android-package" value="plugin.google.maps.CordovaGoogleMaps" />
@@ -76,6 +64,18 @@
     <feature name="MarkerCluster">
         <param name="android-package" value="plugin.google.maps.PluginMarkerCluster" />
     </feature>
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
+    <feature name="Capture">
+        <param name="android-package" value="org.apache.cordova.mediacapture.Capture" />
+    </feature>
+    <feature name="NetworkStatus">
+        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
+    </feature>
+    <feature name="Vibration">
+        <param name="android-package" value="org.apache.cordova.vibration.Vibration" />
+    </feature>
     <name>NextStation</name>
     <description>
         Hello World sample application that responds to the deviceready event.
@@ -115,4 +115,5 @@
     <preference name="BackgroundColor" value="0" />
     <preference name="android-minSdkVersion" value="14" />
     <preference name="DisallowOverscroll" value="true" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="false" />
 </widget>
